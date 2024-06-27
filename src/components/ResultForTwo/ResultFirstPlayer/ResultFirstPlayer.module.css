@@ -1,0 +1,66 @@
+.points {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+.points span {
+    font-weight: bold;
+}
+.resultComment {
+    font-size: 18px;
+    color: forestgreen;
+    margin: 0 0 5px 0;
+}
+.resultComparison {
+    font-size: 18px;
+    color: #9f3008;
+    margin: 0 0 5px 0;
+}
+.partner {
+    font-size: 24px;
+    font-weight: bold;
+    color: #9f3008;
+}
+.buttonStart:hover {
+    background-color: #888787;
+    color: white;
+}
+
+@media (max-width: 960px) {
+    .partner {
+        text-align: left;
+    }
+}
+
+@media (max-width: 760px) {
+    .points {
+        font-size: 18px;
+    }
+    .resultComment {
+        margin-top: 15px;
+        font-size: 16px;
+        text-align: left;
+    }
+    .resultComparison {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 320px) {
+    .points {
+        font-size: 18px;
+    }
+    .resultComment {
+        margin-top: 15px;
+        font-size: 16px;
+        text-align: left;
+    }
+    .resultComparison {
+        font-size: 16px;
+        text-align: left;
+    }
+    .partner {
+        font-size: 18px;
+        text-align: left;
+    }
+}

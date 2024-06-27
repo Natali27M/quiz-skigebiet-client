@@ -1,0 +1,146 @@
+.main {
+    height: calc(100vh - 80px);
+    background: #282727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h2 {
+    color: white;
+    font-size: 34px;
+    margin-top: 50px;
+}
+.formBox {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f5f4f4;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+.borderForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 70px);
+    height: calc(100% - 70px);
+    border: 2px solid darkgray;
+}
+.form {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.form label{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+}
+.form input {
+    height: 40px;
+    /*width: 95%;*/
+    width: 400px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color:  #f5f4f4 !important;
+}
+.buttonRegistration {
+    height: 40px;
+    width: 140px;
+    background: #4c4b4b;
+    color: #f5f4f4;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buttonExit {
+    height: 40px;
+    width: 140px;
+    margin-top: 15px;
+    border: 2px solid #888787;
+    border-radius: 3px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buttonRegistration:hover,
+.buttonExit:hover {
+    background-color: #888787;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .form input {
+        width: 340px;
+    }
+}
+
+@media (max-width: 960px) {
+    .form input {
+        height: 30px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 760px) {
+    .main h2 {
+        font-size: 30px;
+    }
+    .formBox {
+        width: 60%;
+        height: 40%;
+    }
+    .borderForm {
+        width: calc(100% - 30px);
+        height: calc(100% - 30px);
+    }
+    .form input {
+        font-size: 18px;
+    }
+    .buttonRegistration {
+        height: 35px;
+        width: 120px;
+    }
+    .buttonExit {
+        height: 35px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main h2 {
+        font-size: 28px;
+    }
+    .formBox {
+        width: 85%;
+        height: 35%;
+    }
+    .form label{
+        font-size: 18px;
+    }
+    .form input {
+        height: 20px;
+        width: 200px;
+    }
+    .buttonRegistration {
+        height: 30px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .buttonExit {
+        height: 30px;
+        width: 100px;
+        font-size: 14px;
+    }
+}

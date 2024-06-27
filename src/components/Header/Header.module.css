@@ -1,0 +1,42 @@
+.main {
+    height: 80px;
+    width: 100%;
+    background: white;
+}
+.title {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleSkigebiet {
+    font-family: "Castellar", sans-serif;
+    font-size: 50px;
+    width: fit-content;
+    margin-right: 5px;
+}
+.titleQuiz {
+    font-family: "Aria Black", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    width: fit-content;
+    margin-left: 5px;
+}
+
+@media (max-width: 480px) {
+    .titleSkigebiet {
+        font-size: 40px;
+    }
+    .titleQuiz {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .titleSkigebiet {
+        font-size: 32px;
+    }
+    .titleQuiz {
+        font-size: 32px;
+    }
+}
